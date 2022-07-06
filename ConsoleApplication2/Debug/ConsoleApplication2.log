@@ -1,0 +1,32 @@
+﻿Сборка начата 06.07.2022 23:14:57.
+     1>Проект "C:\Users\Аня\Documents\Visual Studio 2013\Projects\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         E:\vstudio\VC\bin\CL.exe /c /I"C:\Users\Аня\Documents\Visual Studio 2013\Projects\ConsoleApplication2\SFML-2.5.0-windows-vc12-32-bit\SFML-2.5.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_STATIC /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ConsoleApplication2.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\vstudio\VC\bin\CL.exe /c /I"C:\Users\Аня\Documents\Visual Studio 2013\Projects\ConsoleApplication2\SFML-2.5.0-windows-vc12-32-bit\SFML-2.5.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_STATIC /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication2.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication2.cpp
+         ConsoleApplication2.cpp
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(54): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(55): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(56): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(57): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(60): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(61): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(62): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(63): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(69): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(72): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(84): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(102): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(103): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(122): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(137): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\аня\documents\visual studio 2013\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(146): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+       Link:
+         E:\vstudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Аня\Documents\Visual Studio 2013\Projects\ConsoleApplication2\Debug\ConsoleApplication2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Аня\Documents\Visual Studio 2013\Projects\ConsoleApplication2\SFML-2.5.0-windows-vc12-32-bit\SFML-2.5.0\lib" "sfml-graphics-s-d.lib" "sfml-window-s-d.lib" "sfml-system-s-d.lib" opengl32.lib freetype.lib winmm.lib gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Аня\Documents\Visual Studio 2013\Projects\ConsoleApplication2\Debug\ConsoleApplication2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Аня\Documents\Visual Studio 2013\Projects\ConsoleApplication2\Debug\ConsoleApplication2.lib" /MACHINE:X86 Debug\ConsoleApplication2.obj
+         Debug\stdafx.obj
+         ConsoleApplication2.vcxproj -> C:\Users\Аня\Documents\Visual Studio 2013\Projects\ConsoleApplication2\Debug\ConsoleApplication2.exe
+     1>Сборка проекта "C:\Users\Аня\Documents\Visual Studio 2013\Projects\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:31.79
